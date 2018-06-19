@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+                                <!-- VALUES FOR HORIZONTAL BAR GRAPH-->
+
+<records>
+
+    <!--  INPUTS FOR VERTICAL AND HORIZONTAL LINE (X & Y AXIS) -->
+    <canvas>
+        <cx_start>100</cx_start>
+        <cy_start>100</cy_start>
+        <c_width>900</c_width>
+        <c_height>900</c_height>
+
+    </canvas>
+
+    <line_xy>
+
+        <!--VERTICAL LINE & HORIZONTAL LINE INSIDE THE CANVAS BASED ON THE VALUES-->
+
+        <xpoint>100</xpoint>  <!--"VERTICAL START(X) POINT" of Canvas and the line inside the canvas-->
+        <ypoint>100</ypoint>  <!--"VERTICAL START(Y) POINT" of Canvas and the line inside the canvas-->
+
+        <bar_count>5</bar_count>  <!--No of bars inside the graph-->
+        <bar_width>30</bar_width> <!-- Denotes the each bar width in the graph-->
+    </line_xy>
+
+    <!-- Texts to written on each X_point is given under Xinputs (denotes years)
+
+    <xinputs><xip>77</xip></xinputs>
+    <xinputs><xip>82</xip></xinputs>
+    <xinputs><xip>99</xip></xinputs>
+    <xinputs><xip>101</xip></xinputs>
+    <xinputs><xip>117</xip></xinputs>-->
+
+    <!-- Texts to written on each Y_point is given under Yinputs (denotes growth)
+
+    <yinputs><yip>1</yip></yinputs>
+    <yinputs><yip>2</yip></yinputs>
+    <yinputs><yip>3</yip></yinputs>
+    <yinputs><yip>4</yip></yinputs>
+    <yinputs><yip>5</yip></yinputs>-->
+
+    <!-- PLOT X & Y VALUES-->
+
+    <rectangles>
+        <rect>
+            <rxpoint>1997</rxpoint>
+            <rypoint>8</rypoint>
+
+            <rcolor>#D503FA</rcolor>
+        </rect>
+        <rect>
+            <rxpoint>2008</rxpoint>
+            <rypoint>6</rypoint>
+
+            <rcolor>#030EFA</rcolor>
+        </rect>
+         <rect>
+              <rxpoint>2003</rxpoint>
+              <rypoint>16</rypoint>
+
+              <rcolor>#4E03FA</rcolor>
+          </rect>
+        <rect>
+            <rxpoint>1995</rxpoint>
+            <rypoint>5</rypoint>
+
+            <rcolor>#0EFA03</rcolor>
+        </rect>
+       <rect>
+              <rxpoint>1992</rxpoint>
+              <rypoint>13</rypoint>
+
+              <rcolor>#FA031D</rcolor>
+          </rect>
+
+    </rectangles>
+
+</records>
